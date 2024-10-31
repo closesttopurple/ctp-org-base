@@ -1,0 +1,17 @@
+{
+  "name": "d-ctp-org",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^11.2.0",
+    "astro": "^4.16.8",
+    "astro-icon": "^1.1.1"
+  }
+}
