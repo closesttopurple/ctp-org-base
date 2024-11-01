@@ -12,6 +12,8 @@
   "dependencies": {
     "@astrojs/cloudflare": "^11.2.0",
     "astro": "^4.16.8",
-    "astro-icon": "^1.1.1"
+    "astro-icon": "^1.1.1",
+    "create-cloudflare": "^2.31.1",
+    "d-ctp-org": "file:"
   }
 }

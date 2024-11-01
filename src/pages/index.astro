@@ -5,15 +5,7 @@ import Card from '../components/Card.astro';
 
 <Layout title="THE HUMAN SERVER">
 	<main>
-		<svg
-			class="astro-a"
-			width="495"
-			height="623"
-			viewBox="0 0 495 623"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-			aria-hidden="false"
-		>
+
 			<path
 				fill-rule="evenodd"
 				clip-rule="evenodd"
@@ -33,31 +25,20 @@ import Card from '../components/Card.astro';
 				</linearGradient>
 			</defs>
 		</svg>
-		<h1>Hiya! <span class="text-gradient">Karis</span> here.</h1>
+		<h1><span class="text-gradient">Hiya! Karis here.</span></h1>
 		
 		<ul role="list" class="link-card-grid">
 			<Card
-				href="https://alb.closesttopurple.org/"
-				title="Accord's Libary Backup"
-				body="Unaffiliated with the team behind Accord's Library."
-			/>
-			<Card
-                href="https://v3.closesttopurple.org/en/"
-                title="Accord's Library v3 Backup"
-                body="Still unaffilated."
-            />
-			 <Card
-                href="https://sr.closesttopurple.org"
-                title="Media Server"
-                body="My personal streaming service."
-            />
-			<Card
-                href="https://bsky.app/profile/closesttopurple.org"
-                title="Social media"
-                body="Follow me for Caim Drakengard !"
-			/>
-			
-		</ul>
+			href="https://sr.closesttopurple.org"
+			title="Media Server"
+			body="My personal streaming service."
+		/>
+		<Card
+			href="https://bsky.app/profile/closesttopurple.org"
+			title="Social media"
+			body="Follow me for Caim Drakengard !"
+		/>
+
 	</main>
 </Layout>
 
@@ -65,10 +46,10 @@ import Card from '../components/Card.astro';
 	main {
 		margin: auto;
 		padding: 1rem;
-		width: 800px;
+		width: 1080px;
 		max-width: calc(100% - 2rem);
 		color: white;
-		font-size: 20px;
+		font-size: 22px;
 		line-height: 1.6;
 	}
 	.astro-a {
@@ -83,15 +64,16 @@ import Card from '../components/Card.astro';
 	h1 {
 		font-size: 4rem;
 		font-weight: 700;
-		line-height: 1;
+		line-height: 1.4;
 		text-align: center;
 		margin-bottom: 1em;
+		color: white;
 	}
 	.text-gradient {
 		background-image: var(--accent-gradient);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
-		background-size: 400%;
+		background-size: 350%;
 		background-position: 0%;
 	}
 	.instructions {
